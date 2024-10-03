@@ -1,5 +1,6 @@
 // import './App.css';
-import Hello from './Hello';
+// import Hello from './Hello';
+import MsgBox from './MsgBox';
 
 function App() {
   // let skill = [<li>"HTML"</li>,<li>"CSS"</li>,<li>"JS"</li>];
@@ -7,8 +8,10 @@ function App() {
   let skill2 = {H:"HTML", C:"CSS" ,J:"JS" } 
   return (
     <>
-     {/*  <h1>hello world</h1> */}
-     <Hello name="vikram" place="dbg" skills = {skill} skills2 = {skill2.H} />
+    
+     {/* <Hello name="vikram" place="dbg" skills = {skill} skills2 = {skill2.H} /> */}
+     <MsgBox userName="ram" textColor="red" />
+     <MsgBox userName="shyam" textColor="pink" />
     </>
   )
 }
