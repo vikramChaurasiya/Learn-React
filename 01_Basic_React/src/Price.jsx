@@ -17,7 +17,7 @@ export default function Price({oldPrice, NewPrice}){
         <div style={styles}>
             <span style={oldStyles}>{oldPrice} </span>
             &nbsp;&nbsp;&nbsp;
-            <spanp style={newStyles} >{NewPrice} </spanp>
+            <span style={newStyles} >{NewPrice} </span>
         </div>
     );
 }
