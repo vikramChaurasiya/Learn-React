@@ -85,6 +85,7 @@ export default function TodoList() {
                             &nbsp; &nbsp; &nbsp;
                             <button onClick={()=>deleteTodo(todo.id)}>delete</button>
                             <button onClick={()=>Completed(todo.id)}>Completed</button>
+                            
                         </li>
                     ))
 
