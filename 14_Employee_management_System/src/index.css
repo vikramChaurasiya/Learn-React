@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  color: #fff;
+}
+body{
+  background-color: #111;
+}
+
+
+/* Scrollbar hide methode */
+#tasklist::-webkit-scrollbar{ 
+  display: none;
+}
+
+#AlltaskList::-webkit-scrollbar{
+  display: none;
+}
