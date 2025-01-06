@@ -76,6 +76,7 @@ function App() {
                     </form>
                 </div>
             </div>
+            <p class="madeby text-white bg-slate-600 rounded px-3 mt-96">Made By <span class="text-red-700">&#9829;</span> <a href="https://www.linkedin.com/in/vikram-kr-chaurasiya-608901235/" target="_blank">VIKRAM KR CHAURASIYA</a></p>
         </div>
 
   )
